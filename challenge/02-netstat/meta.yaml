@@ -1,0 +1,8 @@
+id: 02-netstat
+title: Netstat Detective
+difficulty: Easy
+tags: [netstat, curl, grep]
+author:
+  name: Callum Inglis
+  github: TheCallumInglis
+estimated_mins: 30
