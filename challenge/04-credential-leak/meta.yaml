@@ -1,0 +1,8 @@
+id: 04-credential-leak
+title: Credential Leak
+difficulty: Medium
+tags: [web, api, security, authentication]
+author:
+  name: Callum Inglis
+  github: TheCallumInglis
+estimated_mins: 60
