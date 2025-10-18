@@ -1,0 +1,8 @@
+id: 01-shell-basics
+title: Shell Basics
+difficulty: Easy
+tags: [Bash, chmod, PATH]
+author:
+  name: Callum Inglis
+  github: TheCallumInglis
+estimated_mins: 30
