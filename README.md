@@ -27,5 +27,5 @@ A challenge is considered complete when the user successfully retrieves the "fla
 |-----------|-------|-------------|------|
 | 1 | [Shell Basics](./challenge/01-shell-basics/README.md) | Navigate and manipulate the filesystem using shell commands. | Bash, chmod, PATH |
 | 2 | [Netstat](./challenge/02-netstat/README.md) | Find the open port of a running service and retrieve its flag. | netstat, curl, grep |
-
+| 3 | [Stubborn Processes](./challenge/03-stubborn-processes/README.md) | Handle process signals to ensure clean shutdowns. | SIGTERM, Process Management |
 
