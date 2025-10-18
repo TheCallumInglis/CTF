@@ -1,0 +1,8 @@
+id: 03-stubborn-processes
+title: Stubborn Processes
+difficulty: Easy
+tags: [process, signals, cleanup]
+author:
+  name: Callum Inglis
+  github: TheCallumInglis
+estimated_mins: 30
