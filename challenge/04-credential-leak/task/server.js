@@ -12,6 +12,7 @@ const app = express();
 app.use(helmet());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
+app.set('trust proxy', true);
 
 const attempts = {};
 
@@ -22,12 +23,12 @@ setTimeout(() => {
 }, 60 * 1000); // reset attempts every 60 seconds
 
 app.post('/login', (req, res) => {
-  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  const ip = req.ip || 'unknown';
   attempts[ip] = attempts[ip] || 0;
   const { user, pass } = req.body || {};
   attempts[ip]++;
 
-  console.log(attempts[ip] >= 3);
+  console.log(attempts);
   console.log({user, pass});
 
   if (attempts[ip] >= 3 && !(user === REAL_USER && pass === REAL_PASS)) {
